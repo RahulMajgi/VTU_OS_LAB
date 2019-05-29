@@ -1,0 +1,15 @@
+
+ld R0,-b
+st t1,R0
+ld R0,c
+ld R1,d
+add R0,R0,R1
+st t2,R0
+ld R0,t1
+ld R1,t2
+mul R0,R0,R1
+st t3,R0
+ld R0,t3
+st a,R0
+ld R0,t3
+st a,R0
